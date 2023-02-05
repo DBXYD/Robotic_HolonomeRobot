@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BU33SD5WG-TR
+#
+DEF BU33SD5WG-TR PS 0 40 Y Y 1 L N
+F0 "PS" 950 300 50 H V L BNN
+F1 "BU33SD5WG-TR" 950 200 50 H V L BNN
+F2 "SOT95P280X125-5N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "" 0 0 50 H I L BNN "Arrow_Price-Stock"
+F5 "BU33SD5WG-TR" 0 0 50 H I L BNN "Manufacturer_Part_Number"
+F6 "ROHM Semiconductor" 0 0 50 H I L BNN "Manufacturer_Name"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BU33SD5WG-TR?qs=%2FKR40Cd6GUrQDzRkUEt69Q%3D%3D" 0 0 50 H I L BNN "Mouser_Price-Stock"
+F8 "1.25mm" 0 0 50 H I L BNN "Height"
+F9 "" 0 0 50 H I L BNN "Arrow_Part_Number"
+F10 "755-BU33SD5WG-TR" 0 0 50 H I L BNN "Mouser_Part_Number"
+F11 "LDO regulator,3.3V,0.5A,standby,SSOP5 ROHM BU33SD5WG-TR, LDO Voltage Regulator, 0.5A, 3.3 V +/-2%, 1.7  6 Vin, 5-Pin SSOP" 0 0 50 H I L BNN "Description"
+DRAW
+P 2 0 0 10 200 100 200 -300 N
+S 200 -300 900 100 0 0 10 f
+X VIN 1 0 0 200 R 40 40 0 0 B 
+X GND 2 0 -100 200 R 40 40 0 0 B 
+X STBY 3 0 -200 200 R 40 40 0 0 B 
+X N.C. 4 1100 0 200 L 40 40 0 0 N 
+X VOUT 5 1100 -100 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
